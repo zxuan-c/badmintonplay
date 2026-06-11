@@ -1,4 +1,4 @@
-const CACHE_NAME = "badminton-play-v2";
+const CACHE_NAME = "badminton-play-v4";
 const appUrl = (path = "") => new URL(path, self.registration.scope).toString();
 const APP_SHELL = [
   appUrl(),
